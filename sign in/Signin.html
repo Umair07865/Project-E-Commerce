@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin page</title>
+    <link rel="stylesheet" href="Signin.css">
+</head>
+<body>
+
+    <!-- sign in page designing-->
+
+
+      
+    <!-- starting-->
+
+    <div class="container">
+        <!-- top heading-->
+    <center> <h2 >Login </h2></center>
+
+      <!--input fields-->
+       <div class="inputsouterdivs">
+           <label for="username">User name</label>
+           <input type="text" name="username" id="username" placeholder="valid user first name" class="inputstyling"> 
+            
+        </div>
+  <span id="usererror">
+
+  </span>
+
+      
+
+
+       <div class="inputsouterdivs">
+           <label for="password">Password</label>
+           <input type="text" name="password" id="userpassword" placeholder="Must be more then 5 characters" class="inputstyling">
+     <span id="passwrderror">
+
+    
+   
+
+     </span>   </div>
+       <!-- input fields ends here-->
+
+       <!-- login button-->
+
+       <button type="button" class="loginbutton btn" id="loginbtn" onclick="loginvalidations()">Login</button>
+       <!-- <p> New here? <a href="../signup/signup.html">Sign Up Now </a></p> -->
+   </div>
+
+
+</body>
+<!-- adding the external javascript-->
+<script src="Signin.js"></script>
+<!-- cdn link for -->
+</html>

@@ -1,0 +1,73 @@
+
+
+
+/* body styling */
+body{
+    margin: 0;
+    padding: 0%;
+
+   background-image: url("https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MXx8RSUyMGNvbW1lcmNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+  background-repeat: no-repeat;
+
+  background-position: center;
+  background-size: cover;
+}
+/* outer container */
+.container{
+   
+    height: fit-content;
+    width: 25%;
+    margin-top: 8rem;
+
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    color: white;
+    margin-left: 40%;
+    opacity: 86%;
+
+    padding: 1rem;
+    text-align: justify;
+    padding-left: 2rem;
+    box-shadow: 0px 2px 14px 6px black;
+ 
+}
+/* outer input fields div */
+.inputsouterdivs{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+/*  login button */
+.loginbutton{
+    border: 2px solid white;
+  background-color: black;
+  outline: 2px solid black;
+    width: 10rem;
+    height:2.5rem;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-left: 22%;
+}
+.loginbutton:hover{
+    outline: 2px solid rgb(220, 207, 20);
+}
+/* container inner input fields */
+.inputstyling{
+    height: 2.5rem;
+    padding-left: 2rem;
+    border-radius: 10px;
+}
+.container p a{
+   text-decoration: none;
+   color: lightseagreen;
+}
+@media(max-width:786px)
+{
+    .container{
+        width: 80%;
+        margin-left: 7%;
+
+    }
+
+}
